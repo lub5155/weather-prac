@@ -10,12 +10,24 @@
     <div class="card">
         <div class="row">
             <div class="inp">
-                <input type="text">
+                <input id="inpu" type="text">
             </div>
             <div class="btn">
-                <button><img src="search.png" alt="search img"></button>
+                <button onclick="getWeather()"><img src="search.png" alt="search img"></button>
             </div>
         </div>
+    <div class="weather">
+            <div id="imm">
+                <img src="clear.png" id="imgs" alt="clear">
+            </div>
+            <div class="temp">
+                <p id="tempp">--</p>
+            </div>
+            <div class="city">
+                <p id="name">New York</p>
+            </div>
     </div>
+    </div>
+<script src="index.js"></script>
 </body>
 </html>
