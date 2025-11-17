@@ -10,7 +10,7 @@ let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metri
          document.getElementById("huu").textContent=data.main.humidity+"%"
          document.getElementById("wuu").textContent=(data.wind.speed* 3.6).toFixed(1)+"Km/h"
          let w = data.weather[0].main;
-         let icon = "";
+         let icon = "clear.png";
          if (w == "Rain") icon = "rain.png";
          else if (w == "Clear") icon = "clear.png";
          else if (w == "Drizzle") icon = "drizzle.png";
