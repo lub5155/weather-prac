@@ -3,14 +3,16 @@ body{
     margin: 0%;
 }
 .card{
+    padding-left: 5px;
+    padding-right: 5px;
     margin-top: 50px;
     border-radius: 20px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-color: aqua;
+    background-color: rgb(8, 184, 184);
     width:300px;
-    height:400px;
+    height:450px;
 }
 input{
     padding: 5px;
@@ -58,9 +60,39 @@ button img{
     font-size: 40px;
     font-weight:bold;
 }
+.humd{
+    margin-top: 40px;
+    font-size: 20px;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.humd img{
+    height: 50px;
+    width:50px;
+    margin: 5px;
+}
+.humd p{
+    margin: 0;
+}
 .city{
     color: aliceblue;
     font-size: 30px;
     font-weight: 400;
     margin-top:5px;
+}
+.humdi{
+    display: flex;
+    justify-content: start;
+}
+.windy{
+    display: flex;
+    justify-content: start;
+}
+.con{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
 }
